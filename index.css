@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'League Spartan' , sans-serif ;
+}
+
+.container{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+.container h1{
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 17px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.display-container {
+    width: 260px;
+    height: 40px;
+    background-color: rgb(5, 1, 19);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+
+.display-container input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:rgb(223, 167, 0);
+    font-weight: 600;
+}
+
+.display-container button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 1px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    margin-left: -10px;
+}
+
+#copyIcon{
+    color: green;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.input-container{
+    width: 260px;
+    height: 260px;
+    background-color: rgb(5, 1, 19);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border-radius: 7px;
+    /* padding-left: 12px; */
+    margin-top: 10px;
+    color: white;
+    padding-top: 20px;
+}
+
+.length-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 15px;
+    gap: 75px;
+
+}
+#PLpara1{
+    color: white;
+    font-weight: 600;font-size: 13px;
+}
+#PLpara2{
+    color: rgb(239, 169, 30);
+    font-weight: 600;font-size: 13px;
+}
+
+.slider{
+    width: 200px;
+    margin-left: 16px;
+    margin-top: 5px;
+    border: 5px solid green;
+    background-color: green;
+}
+
+div{
+    color:white;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 10px;
+    display: flex;
+    margin-top: 5px;
+
+    
+}
+div label{
+    padding-left: 5px;
+    font-size: 12px;
+    /* margin-top:6px; */
+    
+}
+div input{
+   background-color: blue;
+   /* display: flex; */
+   /* margin-bottom: 6px; */
+   cursor: pointer;
+
+    
+}
+
+.generateButton{
+    width: 170px;
+    height: 18px;
+    background-color: rgb(253, 71, 247);
+    color: #f1deba;
+    font-size: 10px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    text-orientation: upright;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 10px;
+    box-shadow: 0px 3px 2px 0px #ffc65c;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.generateButton:hover{
+   background-color: white;
+   color: black;
+}
+
+.strength-container{
+    display: flex;
+    gap: 147px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+.indicator-description{
+    width: 260px;
+    height: 50px;
+    /* background-color: red; */
+    padding-left: 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+#level{
+    margin-top: 3.8px;
+}
+.id1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.id1 p:nth-child(1){
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow :0px 0px 3px 1px;
+}
+.id1 p:nth-child(2){
+    font-size: 10px;
+    /* background-color: green; */
+}
+.id2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.id2 p:nth-child(1){
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow :0px 0px 3px 1px;
+}
+.id2 p:nth-child(2){
+    font-size: 10px;
+    /* background-color: green; */
+}
+.id3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.id3 p:nth-child(1){
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: green;
+    box-shadow :0px 0px 3px 1px;
+}
+.id3 p:nth-child(2){
+    font-size: 10px;
+    /* background-color: green; */
+}
+
